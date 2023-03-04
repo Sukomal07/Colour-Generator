@@ -22,7 +22,7 @@ function copyGradient() {
     tempInput.value = gradient;
     document.body.appendChild(tempInput);
     tempInput.select();
-    document.execCommand("copy");
+    // document.execCommand("copy");
     document.body.removeChild(tempInput);
     alert("Gradient copied to clipboard: " + gradient);
 }
